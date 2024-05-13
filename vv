@@ -1,9 +1,122 @@
-<mxfile host="app.diagrams.net" modified="2024-05-13T00:12:32.884Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4.1 Safari/605.1.15" version="24.4.0" etag="jIB-wfDAP2ULkWp1w4aA" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-13T00:37:04.024Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4.1 Safari/605.1.15" etag="XwybzzCgAu7eibyM_z_I" version="24.4.0" type="github">
   <diagram name="Page-1" id="QS8lo-fyLlaq2T0WSTAE">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="827" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="EHfY2bJOd55W7fp-9wrH-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="EHfY2bJOd55W7fp-9wrH-1" target="EHfY2bJOd55W7fp-9wrH-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EHfY2bJOd55W7fp-9wrH-1" value="start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="301" y="20" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EHfY2bJOd55W7fp-9wrH-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="EHfY2bJOd55W7fp-9wrH-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="351" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EHfY2bJOd55W7fp-9wrH-3" value="Distance from Ultarsonic sensor&lt;div&gt;(cm)&lt;/div&gt;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="208" y="130" width="286" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EHfY2bJOd55W7fp-9wrH-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EHfY2bJOd55W7fp-9wrH-6" target="EHfY2bJOd55W7fp-9wrH-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EHfY2bJOd55W7fp-9wrH-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="EHfY2bJOd55W7fp-9wrH-6" target="EHfY2bJOd55W7fp-9wrH-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="351" y="575" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EHfY2bJOd55W7fp-9wrH-6" value="water Level &amp;gt;= 95%" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="241" y="375" width="220" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="EHfY2bJOd55W7fp-9wrH-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="EHfY2bJOd55W7fp-9wrH-8" target="EHfY2bJOd55W7fp-9wrH-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="351" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EHfY2bJOd55W7fp-9wrH-8" value="convert cm to percen( %)" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="251" y="240" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="EHfY2bJOd55W7fp-9wrH-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="EHfY2bJOd55W7fp-9wrH-10" target="EHfY2bJOd55W7fp-9wrH-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EHfY2bJOd55W7fp-9wrH-10" value="" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="507" y="410" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EHfY2bJOd55W7fp-9wrH-12" value="Red LED == HIGH" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="577" y="350" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EHfY2bJOd55W7fp-9wrH-15" value="Full" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="577" y="465" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EHfY2bJOd55W7fp-9wrH-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="EHfY2bJOd55W7fp-9wrH-10" target="EHfY2bJOd55W7fp-9wrH-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EHfY2bJOd55W7fp-9wrH-17" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="461" y="395" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EHfY2bJOd55W7fp-9wrH-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="EHfY2bJOd55W7fp-9wrH-19" target="EHfY2bJOd55W7fp-9wrH-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EHfY2bJOd55W7fp-9wrH-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="EHfY2bJOd55W7fp-9wrH-19" target="EHfY2bJOd55W7fp-9wrH-33">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="351" y="825" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EHfY2bJOd55W7fp-9wrH-19" value="water Level &amp;lt; 95&amp;nbsp;&lt;div&gt;but water Level &amp;gt;10&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="241" y="600" width="220" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="EHfY2bJOd55W7fp-9wrH-20" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="357" y="495" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EHfY2bJOd55W7fp-9wrH-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="EHfY2bJOd55W7fp-9wrH-24" target="EHfY2bJOd55W7fp-9wrH-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EHfY2bJOd55W7fp-9wrH-24" value="" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="507" y="635" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EHfY2bJOd55W7fp-9wrH-25" value="Red Purple == HIGH" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="577" y="575" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EHfY2bJOd55W7fp-9wrH-26" value="Water Level ( % )" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="577" y="690" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EHfY2bJOd55W7fp-9wrH-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="EHfY2bJOd55W7fp-9wrH-24" target="EHfY2bJOd55W7fp-9wrH-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EHfY2bJOd55W7fp-9wrH-31" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="454" y="615" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EHfY2bJOd55W7fp-9wrH-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="EHfY2bJOd55W7fp-9wrH-33" target="EHfY2bJOd55W7fp-9wrH-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EHfY2bJOd55W7fp-9wrH-33" value="water Level &amp;lt;= 10" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="241" y="795" width="220" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="EHfY2bJOd55W7fp-9wrH-34" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="357" y="715" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EHfY2bJOd55W7fp-9wrH-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="EHfY2bJOd55W7fp-9wrH-36" target="EHfY2bJOd55W7fp-9wrH-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EHfY2bJOd55W7fp-9wrH-36" value="" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="336" y="959" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EHfY2bJOd55W7fp-9wrH-37" value="Red Purple == HIGH" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="451" y="944" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EHfY2bJOd55W7fp-9wrH-38" value="Water Level ( % )" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="91" y="944" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EHfY2bJOd55W7fp-9wrH-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="EHfY2bJOd55W7fp-9wrH-36" target="EHfY2bJOd55W7fp-9wrH-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EHfY2bJOd55W7fp-9wrH-45" value="End" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="301" y="1050" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EHfY2bJOd55W7fp-9wrH-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="EHfY2bJOd55W7fp-9wrH-36" target="EHfY2bJOd55W7fp-9wrH-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
